@@ -1,7 +1,7 @@
 {include file='include/header.tpl'}
 <div class="container text-center">
     <div class="page-header">
-        <h1 class="condors-blue">{$_config::APP_NAME}</h1>
+        <h1 class="dirg-green">{$_config::APP_NAME}</h1>
     </div>
     <div class="form-group">
         <form action="/search" method="get">
@@ -9,7 +9,7 @@
                    type="text" class="hover-bottom big-search">
         </form>
     </div>
-    <div class="years form-group wwrg-red">
+    <div class="years form-group dirg-green">
         <ul>
             {foreach $data->years as $year}
                 <li><a href="/search?q={$year}">{$year}</a></li>

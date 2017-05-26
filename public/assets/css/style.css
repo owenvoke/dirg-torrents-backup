@@ -35,13 +35,13 @@
     display: inline-block;
     font-size: 25px;
     padding: 2px 5px;
-    border: 1px solid #AE071F;
+    border: 1px solid #84A472;
     border-radius: 1px;
     margin-bottom: 3px;
 }
 
-.wwrg-red, .wwrg-red span, .wwrg-red a {
-    color: #AE071F;
+.dirg-green, .dirg-green span, .dirg-green a {
+    color: #84A472;
 }
 
 table.table tr td {

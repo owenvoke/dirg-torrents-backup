@@ -8,8 +8,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand wwrg-red" href="/">
-                <span class="fa fa-fw fa-globe"></span>
+            <a class="navbar-brand dirg-green" href="/">
+                <span class="fa fa-fw fa-arrow-down"></span>
                 <span>{$_config::APP_NAME}</span>
             </a>
         </div>
