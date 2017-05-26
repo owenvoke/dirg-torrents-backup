@@ -1,7 +1,7 @@
 {include file='include/header.tpl'}
 <div class="container text-center">
     <div class="page-header">
-        <img src="/assets/images/logo.png" alt="WWRG Torrents Logo">
+        <h1 class="condors-blue">{$_config::APP_NAME}</h1>
     </div>
     <div class="form-group">
         <form action="/search" method="get">
@@ -11,12 +11,9 @@
     </div>
     <div class="years form-group wwrg-red">
         <ul>
-            <li><a href="/search?c=movies">Movies</a></li>
-            <li><a href="/search?c=tv">TV</a></li>
-            <li><a href="/search?c=tv/hd">TV/HD</a></li>
-            <li><a href="/search?c=games">Games</a></li>
-            <li><a href="/search?c=books">Books</a></li>
-            <li><a href="/search?c=music">Music</a></li>
+            {foreach $data->years as $year}
+                <li><a href="/search?q={$year}">{$year}</a></li>
+            {/foreach}
         </ul>
     </div>
     <div class="text-center">

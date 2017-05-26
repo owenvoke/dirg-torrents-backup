@@ -12,6 +12,7 @@ class Controller extends Routing\Base
         $data = new \stdClass();
 
         $data->total_torrents = Torrents\Model::total();
+        $data->years = range(date('Y'), date('Y', strtotime('-5 Years')));
 
         $this->smarty->display(
             'index.tpl',
