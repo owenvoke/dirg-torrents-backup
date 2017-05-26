@@ -4,13 +4,13 @@
 
 .hover-bottom {
     border: transparent;
-    border-bottom: 1px solid #AE0722;
+    border-bottom: 1px solid #84A472;
     background: transparent;
 }
 
 .hover-bottom:focus {
     outline: none;
-    border-bottom: 1px solid #AE071F;
+    border-bottom: 1px solid #84A452;
 }
 
 .big-search {
